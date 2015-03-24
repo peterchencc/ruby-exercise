@@ -59,3 +59,11 @@ Vehicle.number_of_vehicles
 
 puts 'this truck is '+fcarsenal.model
 fcarsenal.can_tow(200)
+
+
+
+puts MyCar.ancestors
+puts '    '
+puts MyTruck.ancestors
+puts '    '
+puts Vehicle.ancestors
